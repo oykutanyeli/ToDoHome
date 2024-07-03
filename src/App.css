@@ -1,0 +1,95 @@
+.app {
+  background-color: #b7b1a5; /* Sayfa arka plan rengi */
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh; 
+}
+
+.app h1 {
+  color: darkorchid; 
+}
+
+.app small {
+  color: black; /* Alt başlık rengi */
+  font-size: 1.2em; /* Alt başlık boyutu büyütmeç*/
+}
+
+.input-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input-container input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #b29ad8; /* Input iç rengi */
+}
+.input-container input::placeholder {
+  color: black; /* Placeholder yazı rengi */
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.input-container button:hover {
+  background-color: darkorchid;
+}
+
+.todo-list {
+  margin-top: 20px;
+  text-align: center;
+  border: 2px solid purple; /* Çerçeve (box) stilini ekle */
+  padding: 10px; /* İçeriği çerçevenin içine almak için padding ekle */
+  border-radius: 10px; /* Köşeleri yuvarlamak için */
+
+  background-color: #b29ad8; 
+}
+
+.todo-list .todo-item {
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em; 
+}
+.footer {
+  background-color: #d7a7f2; /* Sayfanın alt kısmının arka plan rengi */
+  padding: 10px 0; /* Alt kısmın içeriğini düzenle */
+  color: white; /* Alt kısım yazı rengi */
+}
+.container {
+  display: flex;
+}
+
+.right-column {
+  width: 25%;
+  background-image: url("../src/assets/3.jpg"); /* Sol sütunun arka plan resmi */
+  background-size: cover; /* Resmi kaplamak için */
+  background-position: center; /* Resmi ortalamak için */
+}
+.left-column {
+  width: 25%;
+  background-image: url("../src/assets/3.jpg"); /* Sol sütunun arka plan resmi */
+  background-size: cover; /* Resmi kaplamak için */
+  background-position: center; /* Resmi ortalamak için */
+  text-align: right; /* İçeriği sağa yaslamak için */
+}
+
+
+
+.main-column {
+  width: 60%;
+  background-color: lightblue;
+}
+
+
+
